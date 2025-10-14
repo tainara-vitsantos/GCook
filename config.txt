@@ -1,0 +1,16 @@
+git config --global user.name "Tainara Santos"
+git config --global user.email "tainaravit.santos28@gmail.com"
+
+dotnet new mvc -o GCook
+
+cd GCook
+
+-- Pacotes
+dotnet add package Microsoft.EntityFrameworkCore --version 9.0.9
+dotnet add package Microsoft.EntityFrameworkCore.Design --version 9.0.9
+dotnet add package Microsoft.EntityFrameworkCore.Tools --version 9.0.9
+dotnet add package Microsoft.AspNetCore.Identity.EntityFrameworkCore --version 9.0.9
+dotnet add package Pomelo.EntityFrameworkCore.MySql --version 9.0.0
+
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 9.0.9
+dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design --version 9.0.0
