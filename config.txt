@@ -5,6 +5,8 @@ dotnet new mvc -o GCook
 
 cd GCook
 
+dotnet watch run 
+
 -- Pacotes
 dotnet add package Microsoft.EntityFrameworkCore --version 9.0.9
 dotnet add package Microsoft.EntityFrameworkCore.Design --version 9.0.9

@@ -16,5 +16,5 @@ public class Categoria
     public string Foto { get; set; }
 
     [Display(Name = "Exibir na Home?")]
-    public bool ExibirHome { get; set; }
+    public bool ExibirHome { get; set; } = false;
 }
